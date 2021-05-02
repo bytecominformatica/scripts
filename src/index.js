@@ -22,6 +22,3 @@ const despesas = values
 console.log("receitaBruta: ", receitaBruta);
 console.log("despesas: ", despesas);
 console.log("lucro: ", receitaBruta + despesas);
-
-
-18261.69
