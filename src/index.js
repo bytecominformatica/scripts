@@ -10,7 +10,7 @@ console.log(
 const receitaBruta = values
   .filter(value => !value.description.includes('CDB'))
   .map((value) => value.valor)
-  .filter((value) => value > 0 && value < 50000)
+  .filter((value) => value > 0)
   .reduce((accumulator, currentValue) => accumulator + currentValue);
 
 const despesas = values
@@ -21,3 +21,7 @@ const despesas = values
 
 console.log("receitaBruta: ", receitaBruta);
 console.log("despesas: ", despesas);
+console.log("lucro: ", receitaBruta + despesas);
+
+
+18261.69
