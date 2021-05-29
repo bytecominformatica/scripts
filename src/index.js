@@ -1,6 +1,6 @@
 import parseExtrato from "./parseExtrato.js";
 
-const values = await parseExtrato("data/Extrato-2021-04.csv");
+const values = await parseExtrato("data/Extrato-2021-05.csv");
 
 console.log(
   "values: ",
